@@ -5,9 +5,13 @@
 
 `$ npm install react-native-a-beep --save`
 
-### Mostly automatic installation
+### Mostly automatic installation (RN < 0.60)
 
 `$ react-native link react-native-a-beep`
+
+### Mostly automatic installation (RN >= 0.60)
+
+`No further steps required`
 
 ### Manual installation
 
@@ -57,4 +61,4 @@ import RNReactNativeABeep from 'react-native-a-beep';
 // TODO: What to do with the module?
 RNReactNativeABeep;
 ```
-  
+
